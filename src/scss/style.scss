@@ -73,11 +73,45 @@ body{
     p{
       font-size: 1.4rem;
       color:grey;
-      
     }
   }
+}
 
-  
+#authors{
+  h1{
+    color: teal;
+  }
+  .color{
+    color:grey;
+  }
+  img{
+    margin-top: -50px;
+  }
+
+  .fa{
+    font-size: 25px;
+    color: $primary;
+  }
+
+  .card-body:hover{
+    background: $primary;
+    color: #fff;
+
+    .fa{
+      color: #fff;
+    }
+  }
+}
+
+#contact{
+  .fa{
+    font-size: 25px;
+  }
+
+  .btn{
+    background: $primary;
+    border: 2px solid $primary;
+  }
 }
 
 
